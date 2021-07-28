@@ -4,8 +4,6 @@ body {
   background-color: #f8f8f8;
   color: #0b132b;
   font-family: 'Roboto', sans-serif;
-  /* text-justify: auto; */
-  /* font-size: 1.1em; */
 }
 
 h1,
@@ -31,10 +29,12 @@ h3 {
 }
 
 p {
-  padding: 10px 20px;
-  text-align: justify;
+  padding: 2px 20px;
 }
 
+.summary-para {
+  text-align: justify;
+}
 .card-elt {
   padding: 5px;
   margin: 5px;
@@ -52,7 +52,7 @@ p {
 .img-size {
   height: 120px;
   width: 120px;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 .text-center {
